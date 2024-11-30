@@ -1,0 +1,148 @@
+body {
+    margin: auto; /* Remove a margem padrão do corpo da página */
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial */
+    line-height: 1.5; /* Define o espaçamento entre linhas */
+    color: white; /* Define a cor do texto como cinza escuro */
+    background-color: #8b7bdb; /* Define a cor de fundo como um cinza claro */
+}
+
+hr {
+    size: 3px;
+    color: whitesmoke;
+}
+
+header {
+    background-color: #6053a2; /* Define a cor de fundo do cabeçalho como azul */
+    color: white; /* Define a cor do texto como branco */
+    padding: 20px 0; /* Adiciona preenchimento ao topo e à base do cabeçalho */
+}
+
+nav ul { /* seleciona todas as listas não ordenadas ul dentro da tag nav */
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    margin: 0; /* Remove a margem da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+nav ul li { /* seleciona todos os itens de lista li dentro das listas ul */
+    margin: 0 15px; /* Adiciona margem entre os itens da lista */
+}
+
+nav ul li a { 
+    /* seleciona todos os links a que estão dentro do li que estão dentro do ul */
+    color: white; /* Define a cor do link como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
+}
+
+nav ul li a:hover { /* quando o usuário passa o cursor sobre eles, a cor altera */
+    color: #333; /* Altera a cor do link ao passar o mouse */
+}
+
+img {
+    width: 350px;
+}
+
+.corpo {
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;  
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    max-width: 600px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    background: #6053a2; /* Define a cor de fundo do formulário como branco */
+    padding: 20px; /* Adiciona preenchimento ao formulário */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao formulário */
+}
+
+form label {
+    display: block; /* Exibe os rótulos como blocos */
+    margin: 10px 0 5px; /* Adiciona margem ao redor dos rótulos */
+    font-weight: bold; /* Define o peso da fonte dos rótulos como negrito */
+}
+
+form input,
+form textarea {
+    width: 80%; /* Define a largura dos campos como 100% do contêiner */
+    padding: 10px; /* Adiciona preenchimento aos campos */
+    border: 1px #ddd; /* Define uma borda cinza clara nos campos */
+    border-radius: 4px; /* Adiciona bordas arredondadas aos campos */
+    margin-bottom: 10px; /* Adiciona margem abaixo dos campos */
+}
+
+form button {
+    padding: 10px 20px; /* Adiciona preenchimento aos botões */
+    border: none; /* Remove a borda dos botões */
+    border-radius: 4px; /* Adiciona bordas arredondadas aos botões */
+    cursor: pointer; /* Adiciona um cursor de mão aos botões */
+    font-size: 16px; /* Define o tamanho da fonte dos botões */
+    color: white; /* Define a cor do texto dos botões como branco */
+    background-color: #13df98; /* Define a cor de fundo dos botões como azul */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na mudança de cor dos botões */
+}
+
+form button[type="reset"] {
+    background-color: #dc3545; /* Define a cor de fundo dos botões de reset como vermelho */
+    margin-left: 10px; /* Adiciona margem à esquerda dos botões de reset */
+}
+
+form button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo dos botões ao passar o mouse */
+}
+
+form button[type="reset"]:hover {
+    background-color: #c82333; /* Altera a cor de fundo dos botões de reset ao passar o mouse */
+}
+
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé como cinza escuro */
+    padding: 10px 0; /* Adiciona preenchimento ao topo e à base do rodapé */
+    bottom: 0; /* Define o rodapé para ficar na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé como 100% da página */
+}
+
+footer p {
+    color: white; /* Define a cor do texto do rodapé como branco */
+    text-align: center; /* Centraliza o texto */
+    margin: 0px;
+}
